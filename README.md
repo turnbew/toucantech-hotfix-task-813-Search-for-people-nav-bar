@@ -11,7 +11,7 @@ CHANGES
 	IN FILES: 
 	
 		
-		C:\toucantech.dev\network-site\addons\default\themes\toucantechV2\views\partials\header.html
+		\network-site\addons\default\themes\toucantechV2\views\partials\header.html
 		
 			CHANGED CODE:
 			
@@ -24,7 +24,7 @@ CHANGES
 					<div class="col-md-1 col-md-offset-1 action_icons">{{ messaging:bootstrap_icon glyphicon='envelope' }}</div>
 
 			
-		C:\toucantech.dev\network-site\addons\default\themes\toucantechV2\js\search.js
+		\network-site\addons\default\themes\toucantechV2\js\search.js
 
 			ADDED CODE: 
 			
@@ -41,7 +41,7 @@ CHANGES
 					}
 				})
 				
-		C:\toucantech.dev\network-site\addons\default\themes\toucantechV2\css\general.css
+		\network-site\addons\default\themes\toucantechV2\css\general.css
 		
 			CHANGED/ADDED CODE 1: 
 			
@@ -84,7 +84,7 @@ CHANGES
 				}
 
 				
-		C:\toucantech.dev\network-site\addons\default\modules\messaging\plugin.php
+		\network-site\addons\default\modules\messaging\plugin.php
 		
 			ADDED CODE: 
 			
