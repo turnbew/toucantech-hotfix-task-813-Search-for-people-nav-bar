@@ -1,17 +1,19 @@
+FOR PRIVACY AND CODE PROTECTING REASONS THIS IS A SIMPLIFIED VERSION OF CHANGES AND NEW FEATURES
+
 TASK DATE: 06.11.2017 - FINISHED: 06.11.2017
+
+TASK LEVEL: (EASY)  
 
 TASK SHORT DESCRIPTION: 813 (Search for people nav bar)
 
 GITHUB REPOSITORY CODE: hotfix/task-813-Search-for-people-nav-bar
-
-ORIGINAL WORK: https://github.com/BusinessBecause/network-site/tree/hotfix/task-813-Search-for-people-nav-bar
 
 CHANGES
  
 	IN FILES: 
 	
 		
-		\network-site\addons\default\themes\toucantechV2\views\partials\header.html
+		header.html
 		
 			CHANGED CODE:
 			
@@ -24,7 +26,9 @@ CHANGES
 					<div class="col-md-1 col-md-offset-1 action_icons">{{ messaging:bootstrap_icon glyphicon='envelope' }}</div>
 
 			
-		\network-site\addons\default\themes\toucantechV2\js\search.js
+			
+			
+		search.js
 
 			ADDED CODE: 
 			
@@ -41,7 +45,10 @@ CHANGES
 					}
 				})
 				
-		\network-site\addons\default\themes\toucantechV2\css\general.css
+				
+				
+				
+		general.css
 		
 			CHANGED/ADDED CODE 1: 
 			
@@ -84,7 +91,9 @@ CHANGES
 				}
 
 				
-		\network-site\addons\default\modules\messaging\plugin.php
+				
+				
+		plugin.php
 		
 			ADDED CODE: 
 			
@@ -99,11 +108,5 @@ CHANGES
 											? $this->settings->get('theme_colour')
 											: $this->settings->get('theme_menu_text_colour');
 					
-					$html = '<span class="glyphicon glyphicon-' . $glyphicon . ' ' . $glyphicon . '-glyphicon' . ($count > 0 ? '-count' : '') . '" style="color: ' . $theme_color . ' !important;">' . 
-							'	<a href="/messaging/inbox" title="' . $count. ' unread meassages">' . 
-								'&nbsp;' . ($count > 0 ? $count : '&nbsp;') . 
-							'	</a>';
-							'</span>';
-					
-					return $html; 
+					.................
 				}
